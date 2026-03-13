@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Laroye — Content Matcher</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0a0a0a;
+      color: #e8e8e8;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 40px 16px 60px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 420px;
+    }
+
+    /* Header */
+    .header {
+      margin-bottom: 32px;
+    }
+
+    .header h1 {
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    .header h1 span {
+      font-style: italic;
+      color: #d4956a;
+    }
+
+    .header p {
+      color: #777;
+      font-size: 14px;
+      margin-top: 6px;
+    }
+
+    /* Form */
+    .form-group {
+      margin-bottom: 16px;
+    }
+
+    label {
+      display: block;
+      font-size: 12px;
+      font-weight: 600;
+      color: #888;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 6px;
+    }
+
+    input, textarea {
+      width: 100%;
+      background: #161616;
+      border: 1px solid #2a2a2a;
+      border-radius: 10px;
+      padding: 12px 14px;
+      color: #e8e8e8;
+      font-size: 15px;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    input:focus, textarea:focus {
+      border-color: #d4956a;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 80px;
+    }
+
+    input::placeholder, textarea::placeholder {
+      color: #444;
+    }
+
+    /* Button */
+    .submit-btn {
+      width: 100%;
+      padding: 14px;
+      background: #d4956a;
+      color: #0a0a0a;
+      border: none;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 8px;
+      transition: opacity 0.2s;
+    }
+
+    .submit-btn:hover { opacity: 0.9; }
+    .submit-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    /* Result */
+    .result {
+      margin-top: 28px;
+      background: #161616;
+      border: 1px solid #2a2a2a;
+      border-radius: 14px;
+      padding: 20px;
+      display: none;
+    }
+
+    .result.visible { display: block; }
+
+    .result-label {
+      font-size: 13px;
+      color: #888;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 8px;
+    }
+
+    .result-value {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .result-value.strong_match { color: #5cb85c; }
+    .result-value.partial_match { color: #d4956a; }
+    .result-value.weak_match { color: #c9544a; }
+
+    /* Probability bars */
+    .prob-row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .prob-name {
+      width: 105px;
+      font-size: 13px;
+      color: #999;
+      flex-shrink: 0;
+    }
+
+    .prob-bar-bg {
+      flex: 1;
+      height: 8px;
+      background: #222;
+      border-radius: 4px;
+      overflow: hidden;
+      margin: 0 10px;
+    }
+
+    .prob-bar-fill {
+      height: 100%;
+      border-radius: 4px;
+      transition: width 0.4s ease;
+    }
+
+    .prob-bar-fill.strong_match { background: #5cb85c; }
+    .prob-bar-fill.partial_match { background: #d4956a; }
+    .prob-bar-fill.weak_match { background: #c9544a; }
+
+    .prob-pct {
+      width: 42px;
+      text-align: right;
+      font-size: 13px;
+      font-weight: 600;
+      color: #ccc;
+    }
+
+    /* Error */
+    .error {
+      margin-top: 20px;
+      padding: 14px;
+      background: #1e1212;
+      border: 1px solid #3a1a1a;
+      border-radius: 10px;
+      color: #c9544a;
+      font-size: 14px;
+      display: none;
+    }
+
+    .error.visible { display: block; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Laroye <span>Algorithm</span></h1>
+      <p>Test the content-matching prediction model</p>
+    </div>
+
+    <form id="predictForm">
+      <div class="form-group">
+        <label for="age">Age</label>
+        <input type="number" id="age" placeholder="e.g. 10" min="1" max="120" required />
+      </div>
+
+      <div class="form-group">
+        <label for="intentions">Intentions</label>
+        <input type="text" id="intentions" placeholder="e.g. curiosity, science" required />
+      </div>
+
+      <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" id="title" placeholder="e.g. Why Is the Sky Blue?" required />
+      </div>
+
+      <div class="form-group">
+        <label for="description">Description</label>
+        <textarea id="description" placeholder="e.g. A short explainer about light and atmosphere for kids." required></textarea>
+      </div>
+
+      <button type="submit" class="submit-btn" id="submitBtn">Predict Match</button>
+    </form>
+
+    <div class="error" id="error"></div>
+
+    <div class="result" id="result">
+      <div class="result-label">Prediction</div>
+      <div class="result-value" id="resultLabel"></div>
+
+      <div id="probBars"></div>
+    </div>
+  </div>
+
+  <script>
+    const API_URL = 'http://localhost:8000';
+
+    const form = document.getElementById('predictForm');
+    const submitBtn = document.getElementById('submitBtn');
+    const resultDiv = document.getElementById('result');
+    const resultLabel = document.getElementById('resultLabel');
+    const probBars = document.getElementById('probBars');
+    const errorDiv = document.getElementById('error');
+
+    function formatLabel(label) {
+      return label.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+    }
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      // Reset
+      errorDiv.classList.remove('visible');
+      resultDiv.classList.remove('visible');
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Predicting…';
+
+      const body = {
+        age: parseInt(document.getElementById('age').value, 10),
+        intentions: document.getElementById('intentions').value.trim(),
+        title: document.getElementById('title').value.trim(),
+        description: document.getElementById('description').value.trim(),
+      };
+
+      try {
+        const res = await fetch(`${API_URL}/predict`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(body),
+        });
+
+        if (!res.ok) {
+          const text = await res.text();
+          throw new Error(text || `Server responded with ${res.status}`);
+        }
+
+        const data = await res.json();
+
+        // Show label
+        resultLabel.textContent = formatLabel(data.label);
+        resultLabel.className = 'result-value ' + data.label;
+
+        // Build probability bars
+        probBars.innerHTML = '';
+        const sorted = Object.entries(data.probabilities).sort((a, b) => b[1] - a[1]);
+        for (const [name, prob] of sorted) {
+          const pct = (prob * 100).toFixed(1);
+          probBars.innerHTML += `
+            <div class="prob-row">
+              <span class="prob-name">${formatLabel(name)}</span>
+              <div class="prob-bar-bg">
+                <div class="prob-bar-fill ${name}" style="width: ${pct}%"></div>
+              </div>
+              <span class="prob-pct">${pct}%</span>
+            </div>`;
+        }
+
+        resultDiv.classList.add('visible');
+      } catch (err) {
+        errorDiv.textContent = `Error: ${err.message}`;
+        errorDiv.classList.add('visible');
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Predict Match';
+      }
+    });
+  </script>
+</body>
+</html>
