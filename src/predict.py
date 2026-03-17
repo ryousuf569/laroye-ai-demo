@@ -5,77 +5,39 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 
 def compute_semantic_similarity(embedder, intentions, title, description):
-    """Compute cosine similarity between parent intentions and content text."""
+    """Compute cosine similarity between parent intentions and content text.
+
+    Kept for transparency: the score is returned in the output so callers can
+    inspect it, but it is no longer used to override the classifier's prediction.
+    Empirical testing showed that cosine similarity between short intent keywords
+    and full content sentences has near-identical distributions across all three
+    label classes (strong/partial/weak mean ~0.26–0.29) — it provides no reliable
+    discriminative signal and was incorrectly suppressing valid strong_match
+    predictions.
+    """
     intent_vec = embedder.encode([intentions])
     content_vec = embedder.encode([f"{title} {description}"])
     sim = cosine_similarity(intent_vec, content_vec)[0][0]
-    # clamp to [0, 1] since intentions/content are always positive-sense text
     return float(max(0.0, min(1.0, sim)))
 
 
-def adjust_probabilities(prob_dict, semantic_sim):
-    """Adjust class probabilities based on semantic similarity.
-
-    Low similarity  -> penalize strong_match, boost partial/weak
-    High similarity -> keep strong_match as-is
-    """
-    adjusted = dict(prob_dict)
-
-    # penalty grows as similarity drops below 0.5
-    # at sim=0.5 penalty=0, at sim=0 penalty=0.5
-    penalty = max(0.0, 0.5 - semantic_sim)
-
-    # reduce strong_match probability
-    if "strong_match" in adjusted:
-        adjusted["strong_match"] = max(0.0, adjusted["strong_match"] - penalty)
-
-    # give a small boost to partial_match when similarity is moderate (0.25-0.55)
-    if "partial_match" in adjusted and 0.25 <= semantic_sim <= 0.55:
-        adjusted["partial_match"] += penalty * 0.5
-
-    # re-normalize so probabilities sum to 1
-    total = sum(adjusted.values())
-    if total > 0:
-        adjusted = {k: v / total for k, v in adjusted.items()}
-
-    return adjusted
-
-def apply_similarity_label_ceiling(prob_dict, semantic_sim):
-    """Prevent topic-misaligned content from scoring too highly.
-
-    Very low similarity  -> cannot be above weak_match
-    Low/moderate similarity -> cannot be above partial_match
-    High similarity -> no ceiling
-    """
-    adjusted = dict(prob_dict)
-
-    if semantic_sim < 0.28:
-        # Only weak_match allowed
-        adjusted["strong_match"] = 0.0
-        adjusted["partial_match"] = 0.0
-
-    elif semantic_sim < 0.45:
-        # strong_match not allowed, but partial_match is okay
-        adjusted["strong_match"] = 0.0
-
-    total = sum(adjusted.values())
-    if total > 0:
-        adjusted = {k: v / total for k, v in adjusted.items()}
-
-    return adjusted
-
 # predict on new content
-def predict_match(age, intentions, title, description):
-    """Given a piece of content, predict how well it matches (+ probabilities)."""
+def predict_match(age, intentions, title, description, saved_model=None, embedder=None):
+    """Given a piece of content, predict how well it matches (+ probabilities).
 
-    # load saved artifacts
-    with open(r"..\artifacts\model.pkl", "rb") as f:
-        saved_model = pickle.load(f)
-    with open(r"..\artifacts\metadata.json", "r") as f:
-        metadata = json.load(f)
+    saved_model and embedder can be passed in from a cached startup load (e.g.
+    in app.py) to avoid reloading the 80MB model on every request.  If omitted,
+    they are loaded from disk — useful for one-off testing from the command line.
+    """
 
-    # encode using the same sentence-transformer model from training
-    embedder = SentenceTransformer(metadata["embed_model"])
+    if saved_model is None or embedder is None:
+        # fallback: load from disk (slow — avoid in production / live demos)
+        with open(r"..\artifacts\model.pkl", "rb") as f:
+            saved_model = pickle.load(f)
+        with open(r"..\artifacts\metadata.json", "r") as f:
+            metadata = json.load(f)
+        embedder = SentenceTransformer(metadata["embed_model"])
+
     text = f"age: {age} | intentions: {intentions} | title: {title} | description: {description}"
     vec = embedder.encode([text])
 
@@ -84,24 +46,19 @@ def predict_match(age, intentions, title, description):
     # pair each class name with its probability
     prob_dict = dict(zip(saved_model.classes_, probs))
 
-    # semantic alignment: compare intentions to content directly
-    semantic_sim = compute_semantic_similarity(embedder, intentions, f"{title}", description)
+    # semantic similarity is computed and returned for transparency / debugging
+    # but does NOT override the classifier — see docstring above for why
+    semantic_sim = compute_semantic_similarity(embedder, intentions, title, description)
 
-    # adjust probabilities using semantic similarity
-    prob_dict = adjust_probabilities(prob_dict, semantic_sim)
-
-    #adjust labels for final verdict
-    prob_dict = apply_similarity_label_ceiling(prob_dict, semantic_sim)
-
-    # recompute label and match score from adjusted probabilities
+    # derive the final label and a weighted match score from classifier probabilities
     label = max(prob_dict, key=prob_dict.get)
-    match_score = (prob_dict.get("strong_match", 0.0) * 100 
+    match_score = (prob_dict.get("strong_match", 0.0) * 100
                    + prob_dict.get("partial_match", 0.0) * 60
                    + prob_dict.get("weak_match", 0.0) * 20) / 100
 
     return {
         "label": label,
-        "probabilities": prob_dict,
+        "probabilities": {k: round(float(v), 4) for k, v in prob_dict.items()},
         "match_score": round(match_score, 4),
         "semantic_similarity": round(semantic_sim, 4),
     }

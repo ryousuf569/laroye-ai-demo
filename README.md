@@ -166,70 +166,6 @@ This produces a semantic alignment score between the parent’s requested topic 
 
 ---
 
-# Function: Probability Adjustment
-
-This function adjusts the classifier output probabilities using the semantic similarity score.
-
-Low similarity reduces the probability of a strong match.
-
-```python
-def adjust_probabilities(prob_dict, semantic_sim):
-    """Adjust class probabilities based on semantic similarity."""
-
-    adjusted = dict(prob_dict)
-
-    # penalty grows as similarity drops below 0.5
-    penalty = max(0.0, 0.5 - semantic_sim)
-
-    if "strong_match" in adjusted:
-        adjusted["strong_match"] = max(0.0, adjusted["strong_match"] - penalty)
-
-    if "partial_match" in adjusted and 0.25 <= semantic_sim <= 0.55:
-        adjusted["partial_match"] += penalty * 0.5
-
-    total = sum(adjusted.values())
-    if total > 0:
-        adjusted = {k: v / total for k, v in adjusted.items()}
-
-    return adjusted
-```
-
-This ensures that the classifier cannot overly reward content that only *sounds* educational.
-
----
-
-# Function: Similarity Label Ceiling
-
-This function prevents topic-misaligned content from being ranked too highly.
-
-```python
-def apply_similarity_label_ceiling(prob_dict, semantic_sim):
-    """Prevent topic-misaligned content from scoring too highly."""
-
-    adjusted = dict(prob_dict)
-
-    if semantic_sim < 0.28:
-        adjusted["strong_match"] = 0.0
-        adjusted["partial_match"] = 0.0
-
-    elif semantic_sim < 0.45:
-        adjusted["strong_match"] = 0.0
-
-    total = sum(adjusted.values())
-    if total > 0:
-        adjusted = {k: v / total for k, v in adjusted.items()}
-
-    return adjusted
-```
-
-This creates a simple guardrail so that:
-
-- very low alignment → **weak match**
-- moderate alignment → **partial match**
-- high alignment → **strong match possible**
-
----
-
 # Prediction Pipeline
 
 The full prediction process works as follows:
@@ -249,12 +185,6 @@ Logistic Regression classifier
 
 ↓
 Semantic similarity calculation
-
-↓
-Probability adjustment
-
-↓
-Label ceiling guardrail
 
 ↓
 Final prediction

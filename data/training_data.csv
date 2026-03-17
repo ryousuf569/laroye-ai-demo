@@ -1139,3 +1139,453 @@ age,intentions,title,description,label
 12,"calm,mindfulness",Gratitude Scan: Three Things You Can Appreciate Right Now,Brief centering exercise shifting attention from worries to present-moment positives.,strong_match
 11,"focus,study skills",Chunking Information: Breaking Big Topics Into Small Bites,Memory strategy grouping related facts into clusters for easier encoding and retrieval.,strong_match
 13,"focus,study skills",Self-Testing Before the Real Test: A Practice Exam Walkthrough,Simulated test environment at home teaching kids how to replicate exam conditions for better preparation.,strong_match
+11,math skills,Multiply Any Number by 11 Instantly,Learn a simple mental math trick that lets you multiply any two-digit number by 11 in your head without a calculator.,strong_match
+8,reading practice,Sound It Out: Tricky Words Edition,A phonics walkthrough helping early readers decode words with silent letters and unusual vowel combinations.,strong_match
+14,critical thinking,5 Logic Puzzles That Will Break Your Brain,Five increasingly difficult logic puzzles with step-by-step solutions explained at the end.,strong_match
+7,counting skills,Skip Counting Dance Party,An upbeat song that teaches kids to count by 2s 5s and 10s through a catchy dance-along routine.,strong_match
+10,writing improvement,How to Build a Killer Sentence,Quick tips on making sentences more interesting using adjectives adverbs and vivid verbs.,strong_match
+9,math skills,Why Is 1/2 Bigger Than 1/3?,A visual explanation of fraction sizes using pizza slices and chocolate bars so kids finally get why bigger denominators mean smaller pieces.,strong_match
+13,study habits,The Pomodoro Method for Students,How to use timed study blocks and short breaks to stay focused and retain more information during homework sessions.,strong_match
+6,social skills,Sharing Is Caring: Playground Edition,A short animated story about two friends learning to share toys and take turns on the swings.,strong_match
+12,math skills,Long Division Made Easy in 60 Seconds,A fast clear walkthrough of long division using the divide-multiply-subtract-bring-down method with real examples.,strong_match
+15,vocabulary building,10 SAT Words You Already Know,Common SAT vocabulary words explained through everyday situations so they stick without flashcards.,strong_match
+8,spelling practice,Spelling Bee Warm-Up: Double Letters,Practice spelling words with double consonants like balloon butterfly and rabbit with memory tricks for each.,strong_match
+10,emotional development,What to Do When You Feel Angry,A calm guided explanation of healthy ways to handle anger including deep breathing counting and talking it out.,strong_match
+7,creativity,Easy Paper Airplane That Flies Far,Step-by-step instructions for folding a simple paper airplane that actually glides well with tips on throwing technique.,strong_match
+11,grammar skills,Your vs You're: Never Get It Wrong Again,A quick memorable explanation of the difference between your and you're with funny example sentences.,strong_match
+9,physical activity,Beginner Skateboard Tricks for Kids,Three easy skateboard tricks for beginners including how to stand balance and do a basic kickturn safely.,strong_match
+14,problem solving,How to Solve Word Problems Without Panicking,A step-by-step framework for approaching math word problems by identifying what you know what you need and which operation to use.,strong_match
+6,number recognition,Counting to 20 with Animal Friends,Cute animated animals help little learners count objects from 1 to 20 with fun sound effects for each number.,strong_match
+13,reading comprehension,How to Find the Main Idea in Any Passage,Practical strategies for identifying the central point of a reading passage even when it is not stated directly.,strong_match
+10,teamwork,Building a Blanket Fort: A Team Challenge,Two kids work together to build an epic blanket fort showing how communication and cooperation make projects better.,strong_match
+8,math skills,Times Tables Rap: The 7s,A catchy hip-hop song that drills the 7 times table from 7x1 through 7x12 with visual number displays.,strong_match
+12,science curiosity,Why Does Ice Float?,A clear short explanation of water density and molecular structure that answers a common science question kids ask.,partial_match
+9,math skills,Easy Origami Shapes for Beginners,Learn to fold squares triangles and hexagons from paper. Mentions shape names but focuses more on the craft than math concepts.,partial_match
+15,academic improvement,Morning Routine of a Straight-A Student,A day-in-the-life vlog showing a teen's study routine including breakfast exercise and planning but light on actual study techniques.,partial_match
+7,reading practice,Storytime: The Brave Little Turtle,An animated read-aloud of a picture book about a turtle who explores the ocean. Engaging story but no explicit reading instruction.,partial_match
+11,math skills,Cool Science Experiments You Can Do at Home,Five fun kitchen science experiments that use measuring cups and counting steps but focus on science not math.,partial_match
+10,vocabulary building,Guess the Country by the Flag,A geography quiz game that introduces some new words but is primarily about world geography not language arts.,partial_match
+8,creativity,How to Draw a Cartoon Dog,A drawing tutorial that encourages creativity and following instructions but does not connect to any school subject.,partial_match
+13,study habits,How I Organize My School Backpack,A teen shows their backpack organization system. Somewhat related to study habits but more about physical organization than learning strategies.,partial_match
+6,social skills,Baby Animals Playing Together,Adorable clips of puppies and kittens playing. Shows cooperative behavior but is not instructional about social skills.,partial_match
+14,writing improvement,My Top 10 Favorite Books This Year,A teen book review video that models good literary discussion but does not teach writing skills directly.,partial_match
+9,emotional development,Yoga for Kids: Morning Stretch,A gentle kids yoga routine that promotes calm and body awareness. Related to emotional regulation but focused on physical movement.,partial_match
+12,problem solving,Minecraft Redstone Tutorial: Secret Doors,A Minecraft tutorial that involves logical thinking and problem solving but within a gaming context not academic.,partial_match
+7,math skills,Nursery Rhymes Sing-Along Compilation,Classic nursery rhymes including some with counting elements like Ten in the Bed mixed with non-math songs.,partial_match
+11,grammar skills,Funny Autocorrect Fails Compilation,A humorous video showing text message typos. Tangentially related to spelling and grammar but not instructional.,partial_match
+10,reading practice,Top 5 Comic Books for Kids,Reviews of age-appropriate comics that could encourage reading but does not teach reading strategies.,partial_match
+16,critical thinking,Debate Tips: How to Win Any Argument,Teaches debate structure and argumentation which builds critical thinking but framed as competitive debate not general reasoning.,partial_match
+8,physical activity,Kids Dance Workout: Freeze Dance,A high-energy dance video with freeze intervals. Great for physical activity but not specifically about sports skills or coordination drills.,partial_match
+14,math skills,How GPS Actually Works,Explains the math and physics behind GPS navigation. Contains math but at a level and context beyond typical school math goals.,partial_match
+9,spelling practice,Alphabet Song in Three Languages,A fun video teaching the alphabet in English Spanish and French. Related to letters but not focused on English spelling.,partial_match
+13,emotional development,Teen Room Makeover on a Budget,A room decoration video that touches on self-expression and confidence but is primarily a home decor project.,partial_match
+7,counting skills,Color Mixing for Little Artists,A painting tutorial where kids mix primary colors. Involves some counting of paint drops but is mainly an art activity.,partial_match
+11,focus skills,ASMR Slime Making Compilation,Satisfying slime videos that some find calming and focusing but contain no educational content or focus-building strategies.,weak_match
+8,math skills,Funny Cat Videos: Cats vs Cucumbers,A compilation of cats reacting to cucumbers. Entertaining but completely unrelated to math or any educational goal.,weak_match
+14,academic improvement,Extreme Roller Coaster POV Compilation,First-person footage of wild roller coaster rides. Thrilling but no academic content whatsoever.,weak_match
+10,reading practice,Top 10 Goals in Soccer History,A sports highlight reel of amazing soccer goals. No reading instruction or language arts content.,weak_match
+6,social skills,Unboxing 50 Surprise Eggs,A toy unboxing video with no social skills modeling or educational value beyond entertainment.,weak_match
+13,study habits,I Ate Only Fast Food for a Week,A food challenge vlog with no connection to study habits or academic development.,weak_match
+9,vocabulary building,Epic Water Balloon Fight,Kids having a water balloon fight in a backyard. Fun but no vocabulary instruction or language learning.,weak_match
+15,writing improvement,Fortnite Season 12 Battle Pass Review,A gaming review video about new Fortnite skins and features. No writing or language arts content.,weak_match
+7,creativity,Fastest Workers Caught on Camera,A compilation of people working quickly at various jobs. Not age-appropriate creative content for a 7-year-old.,weak_match
+12,emotional development,Prank Wars: Brother vs Sister,A prank video between siblings that models conflict rather than emotional regulation or healthy communication.,weak_match
+11,math skills,Place Value Explained with Base-10 Blocks,A clear visual lesson on ones tens hundreds and thousands using base-10 manipulatives and real-world examples.,strong_match
+9,English skills,Parts of Speech Adventure: Nouns and Verbs,An animated quest where characters collect nouns and verbs helping kids identify and sort parts of speech in fun sentences.,strong_match
+13,problem solving,Mental Math Shortcuts: Multiply by 5 and 25,Two powerful mental math tricks for multiplying by 5 and 25 that make calculations faster than using a calculator.,strong_match
+7,reading readiness,Sight Words You Need to Know by First Grade,A flashcard-style video drilling the 25 most common sight words with repetition and sentence context for each.,strong_match
+10,confidence building,Growth Mindset: How Your Brain Gets Stronger,An animated explanation of neuroplasticity for kids showing how making mistakes and practicing actually builds new brain connections.,strong_match
+8,math skills,Telling Time on a Clock: Half Past and Quarter To,A step-by-step lesson on reading analog clocks with emphasis on half hours and quarter hours using a real clock face.,strong_match
+12,language arts,Punctuation Matters: Commas Save Lives,A funny video showing how comma placement changes meaning with examples like Let's eat Grandma vs Let's eat comma Grandma.,strong_match
+15,academic skills,How to Take Notes That Actually Help You Study,A practical guide to the Cornell note-taking method with real examples from a history textbook and tips for reviewing.,strong_match
+6,early math,Shapes All Around Us,A scavenger hunt video where kids find circles squares triangles and rectangles in everyday objects around the house.,strong_match
+14,English skills,How to Write a Thesis Statement in 3 Steps,A concise tutorial on crafting a strong thesis statement for essays with before-and-after examples showing weak vs strong versions.,strong_match
+9,kindness,The Kindness Boomerang,A short film showing how one act of kindness leads to another creating a chain reaction through a whole community.,strong_match
+11,math skills,Fractions on a Number Line Made Simple,Visual walkthrough of plotting fractions on number lines including how to find equivalent positions and compare fraction sizes.,strong_match
+8,phonics,Blending Sounds: CVC Words Practice,Practice blending consonant-vowel-consonant words like cat dog and sun with audio cues and picture support.,strong_match
+10,responsibility,Morning Routine Checklist for Kids,A kid-friendly video showing how to build a morning routine with tasks like making your bed packing your bag and eating breakfast.,strong_match
+13,geometry basics,Angles Explained: Acute Obtuse and Right,A visual lesson on identifying and measuring angles with real-world examples like clock hands and pizza slices.,strong_match
+7,math skills,Money Math: Counting Coins for Kids,Learn to identify and count pennies nickels dimes and quarters with practice adding up different coin combinations.,strong_match
+16,critical thinking,How to Spot a Fake News Article,A guide to evaluating online sources checking facts and identifying bias in news articles aimed at teens.,strong_match
+10,math skills,Number Patterns: Find the Missing Number,Interactive exercises where kids identify patterns in number sequences like skip counting doubling and Fibonacci-like patterns.,strong_match
+8,reading fluency,Read Along: The Fox and the Grapes,A read-along version of the Aesop fable with highlighted words and natural pacing to help build reading fluency.,strong_match
+12,communication skills,How to Give a Presentation Without Freezing Up,Practical tips for overcoming stage fright and delivering school presentations with confidence including breathing and preparation tricks.,strong_match
+9,measurement,Measuring with a Ruler: Inches and Centimeters,A hands-on lesson showing how to use a ruler correctly measure objects around the house and understand inches vs centimeters.,strong_match
+14,vocabulary,Root Words That Unlock Hundreds of Vocab Words,How learning Greek and Latin roots like bio graph and port helps you figure out the meaning of unfamiliar words.,strong_match
+11,patience,The Marshmallow Test: Why Waiting Pays Off,An animated retelling of the famous marshmallow experiment explaining delayed gratification in terms kids understand.,strong_match
+7,art skills,How to Draw Your Favorite Animals Step by Step,Easy guided drawing tutorials for cats dogs and rabbits with simple shapes that build confidence in young artists.,strong_match
+10,math skills,Word Problem Workshop: Addition and Subtraction,Six real-world word problems with guided solutions showing kids how to underline key info and choose the right operation.,strong_match
+13,mindfulness,5-Minute Mindfulness for Stressed Students,A short guided breathing and body scan meditation designed for middle schoolers feeling overwhelmed by homework or tests.,strong_match
+8,spelling,Tricky Homophones: There Their and They're,A memorable lesson on the three theres with visual mnemonics and practice sentences to lock in the differences.,strong_match
+6,motor skills,Scissors Skills: Cutting Practice for Little Hands,Guided cutting exercises along dotted lines to build fine motor control and hand-eye coordination in young children.,strong_match
+12,math skills,Percentages in Real Life: Discounts and Tips,How to calculate sale prices restaurant tips and tax using simple percentage methods with real shopping examples.,strong_match
+15,reading comprehension,How to Annotate a Text Like a Pro,A walkthrough of active reading strategies including highlighting summarizing questioning and making margin notes.,strong_match
+9,rhythm,Clap Along: Learning Rhythm and Beat,A music basics video teaching quarter notes half notes and whole notes through clapping and body percussion activities.,strong_match
+11,English skills,Synonyms and Antonyms Showdown,A fast-paced quiz game format where kids match synonyms and identify antonyms building vocabulary through rapid recall.,strong_match
+7,hygiene,Why We Wash Our Hands: Germ Fighters,An animated explanation of how soap destroys germs with a fun demonstration of the pepper-and-soap experiment.,strong_match
+14,logic,If-Then Puzzles: Introduction to Logical Reasoning,A set of conditional logic puzzles that teach the basics of deductive reasoning using everyday scenarios.,strong_match
+10,storytelling,How to Write a Story with a Beginning Middle and End,A creative writing lesson showing kids how to structure a short story with character setting conflict and resolution.,strong_match
+8,math skills,Addition Strategies: Making Tens,Teaching the make-a-ten strategy for addition where kids decompose numbers to create friendly tens for easier mental math.,strong_match
+13,self-confidence,Positive Self-Talk: Changing Your Inner Voice,How to recognize negative self-talk and replace it with encouraging realistic thoughts especially around school challenges.,strong_match
+6,letter recognition,Letter Hunt: Find the ABCs,An interactive video where toddlers spot hidden letters in colorful scenes reinforcing letter recognition and sounds.,strong_match
+12,grammar,Subject-Verb Agreement: Making Sentences Click,Clear examples of matching subjects with correct verb forms including tricky cases with compound subjects and collective nouns.,strong_match
+16,essay writing,How to Structure a Five-Paragraph Essay,A walkthrough of the classic essay format with introduction body paragraphs and conclusion using a sample topic about school uniforms.,strong_match
+9,conflict resolution,What to Do When Friends Disagree,A scenario-based video showing kids how to use I-statements listen actively and find compromises during disagreements.,strong_match
+11,division,Division as Sharing: Equal Groups Explained,A concrete visual lesson showing division as splitting objects into equal groups with hands-on examples using candy and blocks.,strong_match
+7,coordination,Balloon Tap Challenge: Hand-Eye Coordination,A fun movement game where kids try to keep a balloon in the air using different body parts building coordination and reaction time.,strong_match
+10,poetry,Write Your Own Haiku in 5 Minutes,A quick creative writing lesson on haiku structure with nature-themed examples and prompts for kids to write their own.,strong_match
+14,math skills,Algebra Basics: What Does X Really Mean?,A beginner-friendly introduction to variables and simple equations using balance scale visuals to make algebra intuitive.,strong_match
+8,healthy habits,My Plate: What Should I Eat Today?,A nutrition basics video explaining the five food groups with kid-friendly meal examples and tips for balanced eating.,strong_match
+13,reading skills,Context Clues: Figure Out Words You Don't Know,Strategies for using surrounding text to determine the meaning of unfamiliar vocabulary without reaching for a dictionary.,strong_match
+9,DIY,Build a Bird Feeder from a Milk Carton,A simple craft project with step-by-step instructions that teaches following directions measuring and caring for wildlife.,strong_match
+11,mental math,Adding Large Numbers in Your Head,Three strategies for mental addition including breaking apart numbers rounding and compensating and left-to-right addition.,strong_match
+15,study skills,How to Study for a Test: Active Recall vs Rereading,Explains why practice testing and self-quizzing are far more effective than passive rereading with practical examples.,strong_match
+7,emotional skills,Feelings Faces: Name That Emotion,An interactive video showing different facial expressions and body language helping young kids identify and name emotions.,strong_match
+10,geometry,Perimeter and Area: What's the Difference?,A visual comparison of perimeter and area using garden plots and room floors to make the concepts concrete and memorable.,strong_match
+12,music basics,Beginner Ukulele: Your First Three Chords,A slow patient tutorial teaching C F and G7 chords on ukulele with a simple song to practice switching between them.,strong_match
+14,English skills,Active vs Passive Voice: When to Use Each,Clear examples showing the difference between active and passive voice with tips on when each is appropriate in writing.,strong_match
+8,problem solving,Tangram Puzzles: Can You Make These Shapes?,A hands-on spatial reasoning challenge using tangram pieces to create animals and objects from geometric shapes.,strong_match
+11,math skills,Understanding Negative Numbers with a Thermometer,Using temperature as a real-world context to introduce negative numbers number lines and basic operations with negatives.,strong_match
+6,social skills,Taking Turns: A Game Day Story,An animated story about friends learning patience and fairness while playing board games with clear turn-taking modeled.,strong_match
+13,science skills,How to Design a Science Fair Project,Step-by-step guide to choosing a question forming a hypothesis and setting up a controlled experiment for science fair.,partial_match
+10,math skills,The History of Zero: How Nothing Changed Everything,A fascinating history of the number zero across civilizations. Educational and math-adjacent but not a math skills lesson.,partial_match
+8,reading practice,Making Friendship Bracelets with Letter Beads,A craft video using alphabet beads that involves reading letters but is primarily a jewelry-making tutorial.,partial_match
+14,academic improvement,How to Wake Up at 5 AM Every Day,A productivity vlog about early rising routines. Tangentially helpful for academics but not directly about learning strategies.,partial_match
+9,math skills,DIY Lava Lamp Science Experiment,A fun science experiment with oil water and food coloring. Involves measuring liquids but the focus is on chemical reactions.,partial_match
+12,writing improvement,How Professional Authors Outline Their Novels,An interview with a published author about their plotting process. Interesting for aspiring writers but advanced and non-instructional.,partial_match
+7,counting skills,Musical Chairs: Party Games for Kids,A video about playing musical chairs which involves some counting of players and chairs but is mainly a party game guide.,partial_match
+15,vocabulary building,Travel Vlog: 24 Hours in Tokyo,A travel vlog that introduces some Japanese words and cultural vocabulary but is primarily a travel entertainment video.,partial_match
+11,grammar skills,Texting Abbreviations Every Kid Knows,A fun video about common texting shortcuts like LOL and BRB. Related to language but teaches informal communication not grammar.,partial_match
+10,emotional development,Cute Puppy Training Compilation,Videos of puppies learning tricks showing patience and reward-based training. Models patience indirectly but not human emotional skills.,partial_match
+13,math skills,Building a Treehouse: Planning and Measuring,A DIY treehouse build that uses real measurements and calculations. Math is applied but the video is primarily a woodworking project.,partial_match
+8,phonics,Songs from Around the World for Kids,A world music compilation with some songs that play with sounds and rhyming but not structured phonics instruction.,partial_match
+16,critical thinking,Top 10 Plot Twists in Movies,A movie countdown that discusses surprising story developments. Exercises analytical thinking but through entertainment not academics.,partial_match
+9,creativity,How Pixar Makes Their Movies,A behind-the-scenes look at animation that is inspiring for creativity but does not teach creative skills directly.,partial_match
+11,focus skills,Satisfying Cake Decorating Videos,Mesmerizing cake decorating compilation that some find focusing but contains no strategies for improving concentration.,weak_match
+14,math skills,Try Not to Laugh: Pet Edition,A funny pet video compilation with no mathematical content despite being watched by a child whose parent wants math skills.,weak_match
+7,reading readiness,Monster Truck Rally Highlights,Exciting monster truck footage that might engage a 7-year-old but has zero connection to reading readiness.,weak_match
+10,grammar skills,Nerf Gun Battle: Office War,A staged Nerf gun fight video with no language arts or grammar content.,weak_match
+13,emotional development,Spiciest Chip Challenge Gone Wrong,A viral food challenge video that models poor decision-making rather than emotional growth.,weak_match
+8,spelling practice,Slime Recipe: Galaxy Glitter Slime,A slime-making tutorial that is entertaining but unrelated to spelling or language arts.,weak_match
+15,study habits,Rating Celebrity Outfits,A fashion commentary video with no academic or study-related content.,weak_match
+6,counting skills,Baby Shark Dance Remix,A dance remix of Baby Shark that is catchy but does not teach counting despite the original having number elements.,weak_match
+12,problem solving,Oddly Satisfying Sand Cutting Compilation,Satisfying ASMR-style videos of kinetic sand being cut. Relaxing but not related to problem solving.,weak_match
+9,vocabulary building,World's Largest Gummy Bear vs Real Food,A food comparison challenge video with no vocabulary instruction or word learning.,weak_match
+16,academic improvement,I Spent 24 Hours in a Haunted House,A clickbait challenge video with no educational value or academic content.,weak_match
+11,teamwork,Solo Minecraft Survival Let's Play,A single-player gaming session that does not demonstrate or teach teamwork skills.,weak_match
+7,creativity,Security Camera Funny Moments,A compilation of funny security camera clips. Not age-appropriate creative content for young children.,weak_match
+14,writing improvement,Extreme Parkour: Rooftop Edition,A dangerous parkour video that has no connection to writing or language arts improvement.,weak_match
+10,social skills,My Massive Sneaker Collection Tour,A sneaker haul and collection showcase with no social skills content.,weak_match
+8,math skills,How I Taught My Dog to High-Five,A dog training vlog that is wholesome but has no math content.,weak_match
+13,focus skills,Opening 100 Mystery Packages from Amazon,An unboxing marathon that promotes consumerism rather than focus or concentration skills.,weak_match
+10,math skills,Estimation Station: How Many Jelly Beans?,A fun estimation game where kids guess quantities then count to check building number sense and reasonable guessing skills.,strong_match
+12,English skills,Prefixes and Suffixes: Word Building Blocks,How adding un- re- -ful and -less to root words creates new meanings with interactive examples and a quiz at the end.,strong_match
+8,responsibility,Pet Care 101: Taking Care of Your Hamster,A guide to daily hamster care routines teaching kids about feeding cleaning and the responsibility of caring for a living thing.,strong_match
+14,math skills,Ratio and Proportion: Scaling Recipes,Using cookie and smoothie recipes to teach ratios and proportions showing how to double triple or halve ingredients.,strong_match
+9,reading skills,Predicting What Happens Next in a Story,A reading strategy lesson teaching kids to make predictions based on clues in the text and then check if they were right.,strong_match
+11,healthy habits,Sleep Hygiene: Why Your Brain Needs 9 Hours,An explanation of why sleep matters for memory learning and mood with practical tips for a better bedtime routine.,strong_match
+7,math skills,Subtraction Stories: Taking Away,Animated subtraction word problems using scenarios like eating cookies sharing toys and birds flying away from a tree.,strong_match
+13,poetry,Slam Poetry for Beginners: Find Your Voice,An introduction to spoken word poetry with tips on rhythm emphasis and expressing personal experiences through verse.,strong_match
+10,conflict resolution,Peer Mediation: Being the Peacemaker,A role-play video showing a student mediator helping two classmates resolve an argument about a group project.,strong_match
+15,grammar,Commonly Confused Words: Effect vs Affect,A detailed breakdown of affect versus effect with memory tricks example sentences and practice exercises.,strong_match
+8,art skills,Watercolor Painting for Kids: Sunset Scene,A guided watercolor tutorial creating a sunset with blending techniques appropriate for young artists.,strong_match
+6,early literacy,Rhyming Words: Cat Hat Bat,A playful video pairing rhyming words with pictures and sounds helping pre-readers hear word families and sound patterns.,strong_match
+12,math skills,Order of Operations: Please Excuse My Dear Aunt Sally,A clear lesson on PEMDAS with worked examples showing why the order you do operations in changes the answer.,strong_match
+14,self-confidence,Public Speaking Tips for Teens,Practical advice on eye contact pacing and organizing thoughts for class presentations and school speeches.,strong_match
+9,math skills,Symmetry Safari: Finding Lines of Symmetry,A visual exploration of symmetry in nature butterflies leaves and faces with hands-on folding activities.,strong_match
+11,comprehension,Making Inferences: Reading Between the Lines,Teaching the skill of inferring meaning from text using what is stated plus background knowledge with practice passages.,strong_match
+10,math skills,Data and Graphs: Reading Bar Charts and Pictographs,How to read create and interpret simple graphs using real data like favorite ice cream flavors and pet surveys.,strong_match
+16,writing,How to Write a Compelling College Application Essay,Tips for brainstorming drafting and revising personal statements with examples of strong openings and authentic voice.,strong_match
+8,emotional regulation,Calm Down Corner: 5 Strategies That Work,Five kid-tested calming strategies including belly breathing counting to ten drawing feelings and using a feelings thermometer.,strong_match
+13,math skills,Probability: Will It Rain Tomorrow?,An introduction to basic probability using weather dice games and coin flips to make abstract concepts tangible.,strong_match
+9,spelling,Spelling Patterns: Magic E and Vowel Teams,How adding a silent e changes vowel sounds and how vowel teams like ea and oa work together to make new sounds.,strong_match
+11,creativity,Stop Motion Animation: Make Your Own Mini Movie,A tutorial on creating stop motion films with everyday objects teaching patience planning and creative storytelling.,strong_match
+14,English skills,Figurative Language: Similes Metaphors and More,Identifying and using figurative language in writing with examples from popular songs and books teens actually know.,strong_match
+10,logic,Sudoku for Kids: Easy Puzzles Explained,A walkthrough of how to solve simple Sudoku puzzles teaching elimination logic and pattern recognition.,strong_match
+12,communication,How to Write a Thank-You Note That Means Something,A guide to writing genuine thank-you notes covering format tone and specific examples for different occasions.,strong_match
+15,critical thinking,Logical Fallacies Teens Should Know,An accessible introduction to common logical fallacies like straw man and false dilemma with examples from social media debates.,strong_match
+9,sentence building,Expanding Sentences: From Boring to Brilliant,Starting with simple sentences and progressively adding details showing kids how to make their writing more descriptive.,strong_match
+6,coordination,Obstacle Course at Home: Over Under and Through,A DIY indoor obstacle course using pillows cushions and chairs to build gross motor skills and spatial awareness.,strong_match
+11,math skills,Converting Fractions Decimals and Percentages,A clear visual guide showing how 1/2 0.5 and 50% are all the same value with a conversion chart kids can reference.,strong_match
+8,patience,Gardening with Kids: Planting Seeds and Waiting,A gardening project video teaching kids to plant seeds water them and observe growth over time learning patience and responsibility.,strong_match
+14,geometry,Pythagorean Theorem: Why a² + b² = c²,A visual proof of the Pythagorean theorem using squares on graph paper making the abstract formula concrete and intuitive.,strong_match
+10,reading practice,Reader's Theater: Acting Out a Story,Kids perform a short play from a picture book practicing expressive reading fluency and comprehension through drama.,strong_match
+12,mindfulness,Body Scan Meditation for Kids,A 5-minute guided body scan helping kids notice physical sensations and release tension from head to toes.,strong_match
+9,math skills,Odd and Even Number Sorting Game,An interactive game where kids sort numbers into odd and even categories with tricks for instantly knowing which is which.,strong_match
+7,vocabulary,Opposite Day: Learning Antonyms,A playful video exploring opposite words like hot and cold big and small fast and slow through silly visual comparisons.,strong_match
+11,writing skills,Paragraphs That Make Sense: Topic Sentences and Supporting Details,How to write a focused paragraph with a clear topic sentence supporting details and a closing sentence.,strong_match
+15,math skills,Introduction to Functions: Input Output Machines,Using the concept of a machine that transforms inputs to outputs to introduce function notation and linear relationships.,strong_match
+10,grammar,Apostrophes: Possession vs Contraction,A clear lesson distinguishing between possessive apostrophes and contractions with examples like dog's and don't.,strong_match
+13,memory techniques,Memory Palace: Remember Anything for a Test,Teaching the method of loci memory technique using a walkthrough of a familiar place to anchor facts for exams.,strong_match
+14,English skills,Transition Words That Transform Your Writing,A guide to using words like however furthermore and meanwhile to connect ideas and improve essay flow.,strong_match
+12,problem solving,Escape Room Logic: Can You Crack the Code?,A virtual escape room challenge requiring math clues word puzzles and pattern recognition to solve each lock.,strong_match
+9,art,How to Mix Colors: Primary to Secondary,A hands-on painting lesson showing how red and blue make purple red and yellow make orange and blue and yellow make green.,strong_match
+11,responsibility,Time Management for Kids: Balancing Homework and Fun,Practical tips for planning after-school time including using a visual schedule and prioritizing tasks before screen time.,strong_match
+16,vocabulary,Etymology: Where English Words Come From,Tracing the origins of common English words through Latin Greek and Germanic roots to deepen vocabulary understanding.,strong_match
+8,safety,Road Safety for Kids: Stop Look and Listen,An animated guide to crossing streets safely recognizing traffic signals and being visible to drivers.,partial_match
+10,math skills,Cool Card Tricks You Can Learn Today,A card magic tutorial that uses some counting and probability language but is really about performing illusions.,partial_match
+13,reading comprehension,Top 10 Anime Openings of All Time,A ranked list of anime theme songs. Features Japanese and English lyrics but does not teach reading strategies.,partial_match
+7,social skills,How Bees Work Together in a Hive,A nature documentary clip about bee colonies and cooperation. Shows teamwork in nature but not human social skills.,partial_match
+11,focus skills,Ambient Study Music: Lo-Fi Hip Hop,A lo-fi music stream intended as background for studying. Supports focus environment but does not teach focus strategies.,partial_match
+14,grammar skills,British vs American English: What's Different?,A comparison of British and American spelling and vocabulary differences. Language-related but not grammar instruction.,partial_match
+9,creativity,Rube Goldberg Machine: Domino Chain Reaction,An impressive chain reaction machine that demonstrates creativity and engineering but is not a creative skills tutorial.,partial_match
+12,study habits,Speed Reading: Read 3x Faster,A speed reading technique video that relates to studying but the techniques may sacrifice comprehension for speed at this age.,partial_match
+8,emotional development,Pixar Movie Moments That Made Everyone Cry,A compilation of emotional Pixar scenes. Evokes feelings but does not teach emotional awareness or regulation skills.,partial_match
+15,math skills,How to Build a Budget PC for Gaming,A PC building guide that involves some budgeting and component comparison but is fundamentally about gaming hardware.,partial_match
+6,letter recognition,Colorful Play-Doh Creations,A Play-Doh sculpting video that makes some letter shapes among many other objects. Minimal letter learning focus.,partial_match
+10,writing improvement,Kid Reporter Interviews a Firefighter,A kid interviews a firefighter about their job. Models questioning and speaking skills but not writing specifically.,partial_match
+13,problem solving,Rubik's Cube Beginner Tutorial,A step-by-step Rubik's cube solve guide that builds spatial reasoning and persistence but is puzzle-specific not general problem solving.,partial_match
+11,vocabulary building,Geography Quiz: Capitals of the World,A geography quiz that incidentally introduces place names and vocabulary but focuses on geographical knowledge.,partial_match
+7,math skills,Cooking with Kids: Easy No-Bake Cookies,A simple recipe video where kids measure ingredients. Involves fractions and measurement but framed as cooking not math.,partial_match
+14,writing improvement,Song Lyrics Breakdown: Hidden Meanings,Analyzing song lyrics for deeper meaning. Develops analytical reading skills but through music not traditional text.,partial_match
+9,math skills,Building with LEGO: Follow the Instructions,A LEGO build-along that practices following sequential steps and counting pieces. Math-adjacent but primarily a toy activity.,partial_match
+16,academic improvement,College Campus Tour Vlog,A tour of a college campus that might motivate academic effort but provides no actual study or learning content.,partial_match
+8,reading practice,Interactive Puppet Show: Three Billy Goats,A puppet retelling of Three Billy Goats Gruff. Engaging storytelling but passive viewing not active reading practice.,partial_match
+12,teamwork,Professional Basketball Best Assists,A sports highlight reel of great basketball passes. Shows teamwork in action but does not teach cooperation skills.,partial_match
+10,emotional development,Funny Sibling Moments Compilation,Clips of siblings being silly together. Shows relationships but does not teach emotional skills or development.,partial_match
+13,grammar skills,Meme Culture Explained for Parents,A video explaining internet memes and their language patterns. Language-adjacent but not grammar instruction.,partial_match
+9,spelling,ASL Alphabet for Beginners,Teaching the American Sign Language alphabet. Involves letters and language but teaches signing not English spelling.,partial_match
+11,creativity,World Record Attempts: Weirdest Records,A compilation of unusual world records that might inspire creativity broadly but does not teach creative skills.,weak_match
+7,phonics,Fidget Spinner Tricks for Beginners,A fidget spinner tutorial with no phonics reading or language content whatsoever.,weak_match
+14,study habits,Mukbang: Eating a Giant Pizza,A mukbang eating video with no educational or study-related content.,weak_match
+10,math skills,My Morning Skincare Routine at Age 10,A skincare routine video for tweens with no mathematical content.,weak_match
+8,vocabulary building,Roblox Obby: Impossible Parkour Challenge,A Roblox gameplay video featuring obstacle courses with no vocabulary or language learning.,weak_match
+13,reading comprehension,Satisfying Power Washing Compilation,Mesmerizing pressure washing videos with no reading or comprehension content.,weak_match
+6,social skills,Will It Blend: Weird Objects in a Blender,A destruction-entertainment video inappropriate for young children and unrelated to social skills.,weak_match
+15,writing improvement,Gym Workout Routine for Beginners,A fitness tutorial for teens with no writing or language arts content.,weak_match
+9,emotional development,RC Car Racing: Backyard Track,Remote control car racing footage with no emotional development or social content.,weak_match
+12,grammar skills,Top 10 Most Expensive Sneakers Ever Made,A sneaker ranking video with no grammar language arts or educational content.,weak_match
+11,problem solving,Hair Braiding Tutorials: 5 Easy Styles,A hair styling tutorial that involves fine motor skills but has no connection to problem solving or academics.,weak_match
+7,counting skills,Dogs React to Magic Tricks,Dogs watching magic tricks performed by their owners. Cute but no counting or math content.,weak_match
+14,critical thinking,Guess the Price: Luxury vs Dollar Store,A price guessing game show format with no critical thinking instruction or analytical skill building.,weak_match
+10,teamwork,Painting My Room Neon Green,A solo room painting vlog with no teamwork demonstration or instruction.,weak_match
+16,academic improvement,Day in My Life: Beach Vacation Edition,A vacation vlog with no academic content or educational value.,weak_match
+9,English skills,Compound Words: Putting Two Words Together,An interactive lesson on compound words like sunflower basketball and butterfly with a matching game to reinforce learning.,strong_match
+11,study skills,Flashcard Hacks: Making Cards That Actually Work,How to create effective flashcards using spaced repetition active recall and minimal text for maximum memory retention.,strong_match
+13,English skills,Narrative vs Expository Writing: Know the Difference,A side-by-side comparison of storytelling writing and informational writing with examples and tips for each type.,strong_match
+10,perseverance,Famous Failures: People Who Didn't Give Up,Stories of well-known people who failed many times before succeeding teaching kids that persistence matters more than talent.,strong_match
+8,math skills,Fact Families: How Addition and Subtraction Connect,Showing how three numbers create a family of related addition and subtraction facts building number relationship understanding.,strong_match
+12,vocabulary,Greek and Latin Roots Scavenger Hunt,A game-style video where kids find words with common roots in everyday text building vocabulary through word analysis.,strong_match
+14,focus skills,Deep Work for Students: How to Study Without Distractions,Practical strategies for creating a distraction-free study environment and maintaining concentration during homework.,strong_match
+6,shapes,3D Shapes Song: Spheres Cubes and Cylinders,A catchy song introducing three-dimensional shapes with real-world examples like balls boxes and cans.,strong_match
+9,grammar,Complete vs Incomplete Sentences,Helping kids recognize sentence fragments and run-ons with practice turning incomplete thoughts into proper sentences.,strong_match
+15,math skills,Statistics Basics: Mean Median and Mode,A clear explanation of the three types of averages with datasets kids can relate to like test scores and game points.,strong_match
+11,reading comprehension,Cause and Effect in Stories,A reading strategy lesson helping kids identify cause-and-effect relationships in fiction and nonfiction passages.,strong_match
+10,DIY,Build Your Own Cardboard Marble Run,A step-by-step engineering project building a marble run that teaches planning measuring angles and problem solving.,strong_match
+7,manners,Please and Thank You: Magic Words,An animated story showing how using polite words opens doors and makes interactions pleasant for everyone.,strong_match
+13,math skills,Cross Multiplication: Solving Proportions Fast,A quick technique lesson on using cross multiplication to solve proportion problems with real-world application examples.,strong_match
+8,reading,Fluency Practice: Reading with Expression,A modeling video where a teacher reads the same passage flat then with expression showing kids what fluent reading sounds like.,strong_match
+12,emotional skills,Managing Test Anxiety: Before During and After,Specific strategies for dealing with test anxiety including preparation techniques in-test calming methods and post-test reflection.,strong_match
+14,geometry,Surface Area and Volume: Wrapping and Filling,Using gift wrapping for surface area and filling containers for volume to make these geometry concepts hands-on and memorable.,strong_match
+9,math skills,Rounding Numbers: The Roller Coaster Rule,A visual method for teaching rounding using a roller coaster hill analogy where numbers either roll back or go over the top.,strong_match
+10,English skills,Dictionary Skills: How to Look Up Any Word,Teaching alphabetical order guide words and pronunciation keys so kids can independently use a dictionary or glossary.,strong_match
+6,movement,Animal Walks: Move Like a Bear Crab and Frog,A movement activity where kids imitate animal movements building strength coordination and body awareness through play.,strong_match
+11,writing,Show Don't Tell: Making Writing Come Alive,Teaching kids to replace telling statements like she was sad with showing descriptions like tears rolled down her cheeks.,strong_match
+15,logic,Deductive vs Inductive Reasoning Explained,A clear comparison of top-down and bottom-up reasoning with practice problems for each type aimed at high school students.,strong_match
+13,English skills,How to Cite Sources in Your Research Paper,A practical guide to basic citation formats for middle school research papers including in-text citations and bibliography.,strong_match
+10,mindfulness,Guided Visualization: Your Calm Place,A relaxing guided imagery exercise where kids imagine a peaceful place using all five senses to build mindfulness skills.,strong_match
+12,writing,Peer Editing: How to Give Helpful Feedback on Writing,Teaching students how to read a classmate's work constructively focusing on specific praise and actionable suggestions.,strong_match
+8,coordination,Jump Rope Skills: From Basic to Criss-Cross,Progressive jump rope tutorials starting with basic jumping and building to more advanced footwork and arm crosses.,strong_match
+14,problem solving,Systems of Equations: Two Unknowns Two Clues,An approachable introduction to solving systems of equations using substitution and elimination with detective-themed word problems.,strong_match
+9,responsibility,Chore Chart Challenge: Earning and Saving,A video about using a chore chart to earn allowance introducing basic money management and the habit of saving.,strong_match
+10,math skills,How Roller Coasters Use Math and Physics,A video about roller coaster design emphasizing the engineering physics and math behind the rides. Informative but broad STEM not focused math practice.,partial_match
+12,English skills,Voice Acting 101: How to Do Character Voices,A voice acting tutorial that develops oral expression and diction skills but is focused on performance not language arts.,partial_match
+8,social skills,Ant Colony Time Lapse: Amazing Teamwork,A nature time lapse of ants building tunnels. Shows incredible cooperation in nature but not human social skill instruction.,partial_match
+14,vocabulary building,Baking the Perfect Chocolate Cake,A detailed baking tutorial that introduces some culinary vocabulary but is a cooking video not a vocabulary lesson.,partial_match
+11,math skills,The Science of Sound: How Instruments Work,A physics video about sound waves and musical instruments. Touches on frequency and patterns but is science not math instruction.,partial_match
+9,grammar skills,Kids Explain Things They Don't Understand,Funny clips of kids giving their own explanations for complex topics. Entertaining language use but not grammar teaching.,partial_match
+13,focus skills,Room Tour: My Organized Study Space,A room tour showing an aesthetically organized desk and study area. Might inspire organization but does not teach focus techniques.,partial_match
+7,reading readiness,I Spy: Color and Shape Edition,An I Spy game focusing on visual discrimination of colors and shapes. Supports pre-reading visual skills indirectly.,partial_match
+10,writing improvement,How Movies Tell Stories Without Words,A video essay on visual storytelling in cinema. Related to narrative structure but taught through film not writing.,partial_match
+15,study habits,A Day in the Life of a Medical Student,A med student's daily routine showing intense studying. Might motivate but study techniques shown are for an adult level.,partial_match
+6,social skills,Cooking Pretend Food in a Play Kitchen,A pretend play video with toy kitchen sets. Models some sharing and imagination but minimal social skills instruction.,partial_match
+11,spelling,International Spelling Bee Highlights,Exciting clips from a spelling competition. Shows advanced spelling but does not teach spelling strategies.,partial_match
+14,math skills,How to Start a Small Business as a Teen,An entrepreneurship video involving some money math and budgeting but primarily about business not math skills.,partial_match
+10,creativity,Time Lapse: Artist Draws Incredible Portrait,A mesmerizing art time lapse that inspires creativity but moves too fast to learn any techniques from.,partial_match
+8,problem solving,Escape the Room: Virtual Adventure,An interactive virtual escape room that exercises problem solving but through a game format not structured learning.,partial_match
+12,emotional development,Movie Review: Inside Out 2,A thoughtful review of Inside Out 2 discussing emotions and mental health themes. Related to emotional awareness through entertainment.,partial_match
+9,math skills,Giant Jenga Tower World Record Attempt,A Jenga challenge that involves spatial reasoning and counting blocks but is primarily entertainment.,partial_match
+13,healthy habits,Meal Prep Sunday: Lunches for the Week,A meal prep video for teens that relates to healthy eating but is a cooking tutorial not a health education lesson.,partial_match
+11,English skills,Learn 10 Words in Korean,A Korean language basics video that teaches vocabulary but in Korean not English language arts.,partial_match
+7,math skills,Family Game Night: Board Games for Kids,A video about playing board games that involve dice counting and strategy but is a game review not a math lesson.,partial_match
+15,critical thinking,True Crime Mini Documentary: Art Heist,A documentary about an art theft that involves investigation and analysis. Engaging critical thinking indirectly but not instructional.,weak_match
+10,reading practice,Hydroflask Sticker Collection Tour,A show-and-tell of water bottle stickers with no reading practice or literacy content.,weak_match
+8,math skills,Most Amazing Basketball Trick Shots,A trick shot compilation video with no math educational content.,weak_match
+13,vocabulary building,GRWM: Get Ready With Me for School,A morning routine and outfit video with no vocabulary building or language content.,weak_match
+6,emotional development,Excavator and Dump Truck Construction Site,Construction vehicle footage that entertains young children but has no emotional development content.,weak_match
+12,study habits,Weird Food Combinations People Actually Eat,A food trend video with no study skills or academic content.,weak_match
+9,writing improvement,Trampoline Tricks: Beginner to Pro,A trampoline skills video with no writing or language arts content.,weak_match
+14,grammar skills,Testing Crazy Amazon Gadgets,A product review and testing video with no grammar or educational content.,weak_match
+11,focus skills,Opening Every Flavor of Oreo Ever Made,A taste test video of Oreo flavors with no focus skills or concentration content.,weak_match
+7,phonics,Superhero Toys: Epic Battle Scene,An action figure play video with no phonics or reading content.,weak_match
+15,academic improvement,Room Painting Transformation: Before and After,A room renovation timelapse with no academic or educational content.,weak_match
+10,math skills,Best Fails of the Month Compilation,A funny fails compilation video with no math or educational content.,weak_match
+16,writing improvement,Skateboarding: Learning to Kickflip,A skateboarding tutorial with no writing language arts or academic content.,weak_match
+8,counting skills,Hamster Maze: Will He Find the Exit?,A hamster running through a maze which is cute but unrelated to counting or math.,weak_match
+13,emotional development,Fastest Rubik's Cube Solves Ever,A speed-cubing highlight reel that is impressive but does not address emotional development.,weak_match
+11,reading comprehension,Making the World's Largest Slime,A world record slime video with no reading or comprehension content.,weak_match
+9,teamwork,Solo Fort Building in the Woods,A solo wilderness shelter build that demonstrates self-reliance but not teamwork.,weak_match
+14,critical thinking,Unpacking My Massive Shoe Haul,A shopping haul video with no critical thinking or analytical content.,weak_match
+12,math skills,Magic Squares: Make Every Row Add Up,A puzzle activity where kids fill in grids so rows columns and diagonals all sum to the same number building addition and logic.,partial_match
+7,reading readiness,Toy Review: New Action Figures Unboxing,An unboxing and review of action figures with no reading literacy or language development content.,weak_match
+10,vocabulary building,Trying Every Sauce at the Hot Sauce Store,A taste test challenge video at a hot sauce shop with no vocabulary or language learning content.,weak_match
+15,English skills,How to Analyze a Poem: Step by Step,A literature lesson walking through tone imagery symbolism and theme in a classic poem with annotation examples.,strong_match
+11,math skills,How Bridges Stay Up: Engineering for Kids,A video about bridge engineering that mentions geometry and weight distribution but focuses on civil engineering not math practice.,partial_match
+9,reading practice,Best Audiobooks for Kids This Year,A review of popular children audiobooks. Encourages love of stories but involves listening not active reading practice.,partial_match
+14,vocabulary building,How to Order Food in Spanish,A language lesson teaching restaurant phrases in Spanish. Vocabulary building but in a foreign language not English.,partial_match
+7,math skills,Rainbow Science: Making a Color Wheel,A color mixing art project that involves counting segments of a wheel but is primarily a science and art activity.,partial_match
+12,writing improvement,How YouTubers Edit Their Videos,A video editing tutorial that involves scripting and storytelling concepts but teaches technical editing not writing.,partial_match
+10,grammar skills,Accent Challenge: Can You Guess the Country?,A fun accent imitation game that involves language awareness but does not teach grammar rules or sentence structure.,partial_match
+8,emotional development,Dog Rescue Transformation Stories,Heartwarming stories of rescued dogs being rehabilitated. Evokes empathy but does not teach emotional skills to children.,partial_match
+15,study habits,How I Decorated My Planner for School,A planner decoration video that touches on organization aesthetics but offers minimal study technique advice.,partial_match
+13,math skills,Stock Market Basics for Teens,An introduction to investing that uses percentages and charts but is a finance lesson not a math skills tutorial.,partial_match
+6,phonics,Animal Sound Guessing Game,A game where kids guess animals by their sounds. Involves auditory discrimination related to phonics but not letter-sound instruction.,partial_match
+11,creativity,Satisfying Pottery Wheel Compilation,Beautiful pottery being thrown on a wheel. Visually creative and inspiring but does not teach any art technique.,partial_match
+9,spelling practice,How to Write in Cursive,A cursive handwriting tutorial that involves letter formation but focuses on handwriting style not spelling accuracy.,partial_match
+14,problem solving,Competitive Chess: Opening Strategies,Advanced chess opening theory that develops strategic thinking but is specialized to chess not general problem solving.,partial_match
+10,reading comprehension,Kids Debate: Should Homework Be Banned?,A structured debate among kids about homework. Involves argumentation and comprehension skills but in an oral format not reading.,partial_match
+7,social skills,How Dolphins Communicate Underwater,A nature documentary clip about dolphin communication. Fascinating science but not instruction on human social skills.,partial_match
+12,focus skills,Aesthetic Desk Setup Tour for Students,A desk organization and decoration showcase. Creates an environment conducive to focus but does not teach concentration strategies.,partial_match
+8,math skills,Baking Soda Volcano: Classic Science Fair Project,A science experiment that involves measuring ingredients but is fundamentally a chemistry demonstration not math.,partial_match
+15,English skills,Starting a Book Club at School,Tips for organizing a school book club. Promotes reading culture but is about event planning not English language skills.,partial_match
+13,emotional development,Ranking Disney Villains by Scariness,A fun ranking video that discusses villain motivations and emotions but does not teach emotional development skills.,partial_match
+11,grammar skills,How Different Countries Say Hello,A cultural exploration of greetings worldwide. Language-related but focused on cultural customs not English grammar.,partial_match
+9,creativity,Giant Bubble Recipe and Tricks,A giant bubble-making tutorial that is creative and fun but does not teach transferable creative skills.,partial_match
+10,math skills,Lemonade Stand Business Challenge,Kids run a lemonade stand involving money counting and making change. Math-adjacent but framed as entrepreneurship.,partial_match
+6,letter recognition,Finger Painting: Making Handprint Animals,A messy art project using handprints. Some letters appear on the paint bottles but the activity is purely artistic.,partial_match
+14,study habits,Minimalist School Supplies Haul,A school supplies shopping video that relates to being prepared for school but does not teach study methods.,partial_match
+12,vocabulary building,Nature Walk Scavenger Hunt,An outdoor scavenger hunt that names plants and animals. Introduces nature vocabulary but is primarily an outdoor activity.,partial_match
+8,reading readiness,Puppet Show: Goldilocks and the Three Bears,A puppet retelling of a classic tale. Exposes kids to narrative structure but is passive entertainment not reading instruction.,partial_match
+15,critical thinking,Conspiracy Theories Debunked for Teens,A video debunking popular conspiracy theories using evidence and logic. Teaches skepticism but through entertainment format.,partial_match
+13,writing improvement,How Journalists Write Breaking News,A behind-the-scenes look at newsroom writing. Related to writing but focused on professional journalism not student skill building.,partial_match
+7,counting skills,Treasure Hunt in the Backyard,A backyard treasure hunt where kids find numbered clues. Involves reading numbers but is mainly an adventure activity.,partial_match
+11,English skills,Hardest Tongue Twisters Challenge,A tongue twister challenge that exercises pronunciation and fluency but is a game not structured language instruction.,partial_match
+10,responsibility,How Recycling Actually Works,An educational video about the recycling process. Teaches environmental responsibility but not personal responsibility habits.,partial_match
+9,math skills,Paper Folding: How Many Times Can You Fold?,An experiment about paper folding limits that touches on doubling and exponential growth but is primarily a science curiosity video.,partial_match
+14,grammar skills,Evolution of English: Old English to Modern,A history of the English language showing how grammar and vocabulary changed over centuries. Informative but historical not instructional.,partial_match
+8,vocabulary building,Cooking with Kids: Making Homemade Pasta,A pasta-making tutorial that introduces some culinary terms but is a cooking activity not vocabulary instruction.,partial_match
+12,math skills,How Video Games Use Math Behind the Scenes,An explanation of math in game development covering physics engines and probability. Interesting but not a math learning resource.,partial_match
+16,focus skills,Nature Sounds: 30 Minutes of Rain for Studying,A rain soundscape for background studying. Supports a focus environment but provides no focus skill instruction.,partial_match
+7,social skills,Building a Snowman Together,Two kids building a snowman and negotiating who does what. Shows natural cooperation but is not structured social skills content.,partial_match
+13,reading comprehension,TED Talk: The Power of Introverts,A TED talk about introversion that develops listening comprehension but is a lecture format not reading instruction.,partial_match
+11,emotional development,Sports Bloopers: Funny Moments in Soccer,Funny sports fail clips that show good sportsmanship reactions in some cases but are primarily entertainment.,partial_match
+9,writing improvement,How Comic Books Are Made,A behind-the-scenes look at comic creation covering scripting and visual storytelling but focused on the comic industry not writing skills.,partial_match
+10,math skills,Domino Chain Reaction: 10000 Dominoes,A massive domino setup and topple. Involves counting and patterns visually but is purely a spectacle video.,partial_match
+15,vocabulary building,Foreign Exchange Student Q and A,A Q and A with an exchange student introducing cultural terms and expressions but not focused on English vocabulary building.,partial_match
+8,creativity,Museum Tour: Coolest Art for Kids,A virtual museum tour showing famous paintings and sculptures. Exposes kids to art but does not teach creative techniques.,partial_match
+14,writing improvement,Song Writing 101: Write Your First Verse,A songwriting tutorial that involves creative writing skills but is specific to music lyrics not general writing improvement.,partial_match
+12,problem solving,Optical Illusions That Trick Your Brain,A collection of optical illusions with explanations. Engages analytical thinking but is about perception not problem-solving skills.,partial_match
+6,motor skills,Play-Doh Creations: Roll Squish and Shape,A Play-Doh activity focusing on squishing and shaping. Builds fine motor skills but without structured skill progression.,partial_match
+11,math skills,How Maps Use Scale and Coordinates,A geography lesson on map reading that uses mathematical concepts like scale ratios and grid coordinates in a geography context.,partial_match
+13,teamwork,Behind the Scenes: Making a School Play,A documentary about putting on a school production. Shows teamwork in action but does not directly teach collaboration skills.,partial_match
+9,grammar skills,Kids Try Foods from Around the World,A food tasting video where kids describe flavors using adjectives. Natural language use but not grammar instruction.,partial_match
+15,academic improvement,Gap Year: Is It Worth It?,A discussion about taking a gap year before college. Related to academic planning but not about improving academic skills.,partial_match
+7,math skills,Building Sandcastles at the Beach,Kids building sandcastles using buckets and molds. Involves spatial thinking and some informal measurement but is a play activity.,partial_match
+10,English skills,Sign Language Basics: 20 Essential Signs,A beginner ASL lesson teaching common signs. Language-related but teaches sign language not English language arts.,partial_match
+14,focus skills,Coffee Shop Study Vlog: 3 Hours of Studying,A real-time study-with-me video in a cafe. Models studying but does not teach focus techniques or strategies.,partial_match
+8,reading practice,Kids News Report: Weather Update,Kids presenting a mock weather forecast. Involves reading from a script but is a performance activity not reading instruction.,partial_match
+12,creativity,Duct Tape Wallet Tutorial,A step-by-step duct tape wallet craft. Creative and hands-on but primarily a craft tutorial without broader creative skill building.,partial_match
+11,spelling,Karaoke for Kids: Sing Along Hits,A karaoke video with on-screen lyrics. Kids see spelled-out words but the activity is singing not spelling practice.,partial_match
+13,math skills,Astronomy for Beginners: Planets and Distances,A space education video mentioning distances and sizes with big numbers. Math-adjacent but focused on astronomy.,partial_match
+9,emotional development,Funny Baby Laughing Compilation,A compilation of babies laughing that evokes joy but provides no emotional development instruction.,partial_match
+16,study habits,How to Choose the Right College Major,College planning advice for older teens. Relates to academic path but is guidance counseling not study skill instruction.,partial_match
+10,teamwork,Cooking Challenge: Mystery Ingredient,A cooking challenge where kids work in pairs with a surprise ingredient. Shows collaboration in a fun context but is entertainment.,partial_match
+7,phonics,Wheels on the Bus: Extended Remix,A long version of Wheels on the Bus with many verses. Contains rhyming and repetition useful for phonological awareness but not explicit phonics.,partial_match
+14,English skills,How Memes Evolved: Internet Language History,A video essay on meme culture and internet language evolution. Language-related but about informal digital communication.,partial_match
+12,writing improvement,Journaling Ideas: 30 Prompts to Try,A list of journaling prompts that could inspire writing but presents prompts without teaching writing technique.,partial_match
+8,math skills,Science of Magnets: Push and Pull,A physics lesson about magnetic forces that uses some measurement and counting but is a science video not math instruction.,partial_match
+11,vocabulary building,Kid Reviews: Best Playgrounds in My City,A playground review vlog that uses descriptive language naturally but is not designed to build vocabulary.,partial_match
+15,grammar skills,Podcast Recommendations for Teens,A list of teen podcast recommendations discussing various shows. Involves media literacy but not grammar skills.,partial_match
+13,reading comprehension,Documentary Clip: Life in the Deep Ocean,A nature documentary about deep sea creatures. Rich narration that could build listening comprehension but not reading skills.,partial_match
+9,problem solving,Magic Tricks Revealed: Easy Card Tricks,Magic trick tutorials that involve following steps and some logic but frame problem-solving within performance magic.,partial_match
+10,confidence building,Talent Show Highlights: Kids Got Talent,A compilation of kids performing at talent shows. Might inspire confidence but does not teach confidence-building strategies.,partial_match
+6,social skills,Teddy Bear Picnic Song and Dance,A sing-along about a teddy bear picnic with group dancing. Fun social activity but minimal social skills instruction.,partial_match
+14,math skills,Photography Basics: Rule of Thirds,A photography lesson that mentions fractions and geometry in composition but is primarily about visual art not math.,partial_match
+10,creativity,Paint Pouring Art: Acrylic Pour Technique,A satisfying paint pouring video that demonstrates one art technique but in a passive watching format not an instructional one.,weak_match
+14,math skills,Ranking Every Fast Food Burger,A fast food taste test ranking video with no math content despite the numerical ranking format.,weak_match
+8,reading practice,Roller Coaster Tier List: Best to Worst,A roller coaster ranking discussion with no reading instruction or literacy content.,weak_match
+13,vocabulary building,Room Tour: I Redecorated Everything,A bedroom makeover reveal video with no vocabulary building or language instruction.,weak_match
+7,social skills,Toy Car Racing Down a Giant Ramp,Toy cars racing down homemade ramps. Entertaining for young kids but no social skills content.,weak_match
+12,study habits,Extreme Hide and Seek in a Mansion,A hide and seek challenge in a large house with no academic or study content.,weak_match
+9,writing improvement,Best Catches in Football History,A sports highlights compilation with no writing or language arts content.,weak_match
+15,grammar skills,I Wore the Same Outfit for a Week,A social experiment vlog about wearing one outfit for a week. No grammar or English content.,weak_match
+11,emotional development,Coin Pusher: Winning the Jackpot,A coin pusher arcade game video with no emotional development or social content.,weak_match
+6,counting skills,Puppy Plays in the Snow for the First Time,An adorable puppy video with no counting educational or mathematical content.,weak_match
+16,critical thinking,Reacting to My Old Photos,A reaction video looking at old photos with no critical thinking or analytical content.,weak_match
+10,focus skills,Giant Gummy vs Real Food Challenge,A food challenge comparing gummy versions to real items. No focus skills or educational content.,weak_match
+8,spelling practice,Toy Robot Unboxing and Review,A toy robot unboxing with no spelling or language arts content.,weak_match
+13,math skills,Recreating Celebrity Outfits on a Budget,A fashion recreation video with minimal math despite involving prices.,weak_match
+7,reading readiness,Marble Run: Biggest Track Ever,A marble run construction and demonstration video with no reading or literacy content.,weak_match
+14,problem solving,Beach Day Vlog: Summer Edition,A beach vlog with surfing and sandcastle content but no problem-solving instruction.,weak_match
+9,math skills,Gymnastics Floor Routine Compilation,A gymnastics highlights video with no math content.,weak_match
+12,English skills,Eating Only One Color Food for 24 Hours,A food challenge video with no English language arts or educational content.,weak_match
+15,vocabulary building,Car Detailing: Satisfying Transformation,A car cleaning and detailing video with no vocabulary instruction.,weak_match
+11,teamwork,Testing the Most Sour Candy in the World,A sour candy challenge done solo with no teamwork or cooperation content.,weak_match
+6,early literacy,Popping 1000 Water Balloons,A slow-motion water balloon popping compilation with no literacy content.,weak_match
+10,grammar skills,Trampoline Park: Extreme Tricks,A trampoline park vlog showing tricks and jumps with no grammar or language content.,weak_match
+13,focus skills,Blind Taste Test: Cheap vs Expensive,A blind taste comparison video with no focus skills or concentration content.,weak_match
+8,math skills,Puppy vs Kitten: Who Is Cuter?,A cute animal comparison video with no math or educational content.,weak_match
+14,reading comprehension,Building a Go-Kart from Scratch,A go-kart build project with no reading comprehension or language arts content.,weak_match
+7,vocabulary building,Biggest Splash Contest at the Pool,A pool splash competition video with no vocabulary or language instruction.,weak_match
+12,emotional development,Nerf War: Ultimate Battle Challenge,An elaborate Nerf gun battle video that models competition over emotional skills.,weak_match
+15,study habits,Trying Weird Kitchen Gadgets,A kitchen gadget testing video with no study skills or academic content.,weak_match
+9,phonics,Mini Golf Trick Shots,A mini golf trick shot compilation with no phonics or reading content.,weak_match
+11,math skills,Guess That Sound Challenge,An audio guessing game with no math educational content.,weak_match
+16,writing improvement,Eating at the Worst Reviewed Restaurant,A restaurant review vlog with no writing instruction or language arts content.,weak_match
+10,spelling practice,Paper Airplane Distance Contest,A paper airplane throwing competition with no spelling or literacy content.,weak_match
+13,reading skills,Pancake Art Challenge: Drawing with Batter,A pancake art video with no reading instruction or comprehension content.,weak_match
+8,creativity,Longest Hot Wheels Track Ever Built,A toy car track building video that while hands-on does not teach creative skills or techniques.,weak_match
+14,vocabulary building,24 Hour Overnight Challenge in a Store,A challenge vlog about staying overnight in a store with no vocabulary content.,weak_match
+7,math skills,Dress Up Fashion Show for Kids,A kids fashion show video with no math or educational content.,weak_match
+12,grammar skills,Extreme Spicy Noodle Challenge,A spicy food challenge with no grammar or language arts content.,weak_match
+15,focus skills,Sneaker Customization: Painting My Shoes,A shoe painting customization video with no focus skills instruction.,weak_match
+9,social skills,RC Boat Racing in a Pool,A remote control boat racing video with no social skills content.,weak_match
+11,reading comprehension,Bowling Trick Shots Compilation,A bowling trick shot video with no reading or comprehension content.,weak_match
+6,phonics,Bouncy Castle Fun at the Fair,Footage of kids playing in a bouncy castle with no phonics or literacy content.,weak_match
+13,teamwork,Solo Camping in the Rain,A solo camping experience video that demonstrates self-reliance not teamwork.,weak_match
+10,emotional development,Card Tower World Record Attempt,A card stacking record attempt with no emotional development content.,weak_match
+14,English skills,Best Dunks in Basketball This Season,A basketball highlights reel with no English or language arts content.,weak_match
+8,study habits,Making Giant Ice Cream Sundae,A giant food creation video with no study skills or academic content.,weak_match
+16,academic improvement,Street Food Tour: Night Market Edition,A street food tour vlog with no academic or educational content.,weak_match
+7,social skills,Bath Bomb Fizz Test: Which One Wins?,A bath bomb comparison video with no social skills or developmental content.,weak_match
+12,writing improvement,Fastest Eater Challenge: Pizza Race,An eating competition with no writing or language arts content.,weak_match
+15,math skills,Try On Haul: Spring Fashion Edition,A clothing haul and try-on video with no math or educational content.,weak_match
+9,confidence building,Crushing Things with Hydraulic Press,A hydraulic press destruction video with no confidence-building or educational content.,weak_match
+11,grammar skills,Extreme Water Slide: Biggest in the World,A water slide POV video with no grammar or language arts content.,weak_match
+10,math skills,Ranking School Lunches from Around the World,A school lunch comparison that mentions numbers for ranking but is a food culture video not math.,weak_match
+13,spelling practice,Drone Footage: Flying Over My Town,Aerial drone footage of a town with no spelling or language content.,weak_match
+6,emotional development,Car Wash: Watching Cars Get Cleaned,A car wash process video aimed at young viewers with no emotional development content.,weak_match
+14,focus skills,Thrift Store Flip: Turning Junk into Treasure,A thrift store upcycling project with no focus skills instruction.,weak_match
+8,reading readiness,Biggest Bubble Gum Bubble Ever,A bubble gum challenge video with no reading or literacy content.,weak_match
+12,creativity,Reacting to Viral TikToks,A reaction video watching popular TikToks with no creative instruction or skill building.,weak_match
+15,English skills,I Let My Friends Pick My Outfit,A friend-chosen outfit challenge with no English language arts content.,weak_match
+7,counting skills,Kitten Playing with Yarn Ball,A cute kitten video with no counting or mathematical content.,weak_match
+13,vocabulary building,Backflip Tutorial: Learn in One Day,A gymnastics tutorial with no vocabulary or language learning content.,weak_match
+11,problem solving,Smoothie Roulette: Mystery Blend,A smoothie blending game where random ingredients are mixed. No problem-solving instruction.,weak_match
+9,math skills,Face Painting Ideas for Halloween,A face painting tutorial with no math content.,weak_match
+16,study habits,Road Trip Vlog: 12 Hours in the Car,A road trip vlog with no study skills or academic content.,weak_match
+10,reading practice,Laser Tag: Epic Battle at the Arena,A laser tag gameplay video with no reading practice or literacy content.,weak_match
+14,teamwork,Rating Every Candy Bar: Tier List,A solo candy ranking video with no teamwork content.,weak_match
+8,vocabulary building,Finger Skateboard Tricks for Beginners,A tech deck fingerboard tutorial with no vocabulary or language content.,weak_match
+12,math skills,Dog Agility Course: Training My Puppy,A dog training video that involves some counting of obstacles but is a pet activity not math instruction.,weak_match
+6,social skills,Vacuum Cleaner Sounds for Relaxation,A white noise video with vacuum sounds for calming. No social skills content and minimal engagement for children.,weak_match
+13,emotional development,Speed Building: LEGO Set Time Lapse,A LEGO speed build time lapse with no emotional development content.,weak_match
+15,critical thinking,Couples Quiz Challenge,A relationship quiz video between two people with no critical thinking instruction.,weak_match
+11,writing improvement,Obstacle Course Race: Ninja Warrior Style,A ninja warrior obstacle course attempt with no writing or language content.,weak_match
+9,grammar skills,Making a Volcano Model with Clay,A clay volcano craft project with no grammar or English instruction.,weak_match
+7,reading practice,Water Table Play: Splashing and Pouring,A water play activity for toddlers with no reading or literacy instruction.,weak_match
+10,problem solving,Candy Vending Machine: How to Win Every Time,A vending machine hack video with no real problem-solving education.,weak_match
+14,spelling practice,Skateboard vs Scooter: Which Is Better?,A comparison debate between skateboarding and scootering with no spelling content.,weak_match
+8,focus skills,Balloon Pop Challenge: 100 Balloons,A balloon popping game with no focus or concentration skill instruction.,weak_match
+12,reading comprehension,Epic Snowball Fight: Kids vs Parents,A snowball fight video with no reading or comprehension content.,weak_match
+15,reading comprehension,Extreme Trampoline Dodgeball,A high-energy dodgeball game on trampolines with no reading or comprehension content.,weak_match
+10,writing improvement,Ice Cream Taste Test: 20 Flavors,An ice cream sampling video with no writing or language arts content.,weak_match
+6,math skills,Bubble Wrap Popping ASMR,A satisfying bubble wrap popping video with no math or educational content.,weak_match
+13,grammar skills,Trying on Costumes at the Halloween Store,A costume try-on video with no grammar or language instruction.,weak_match
+8,problem solving,Throwing Darts at a Map and Traveling There,A travel challenge based on random dart throws with no problem-solving instruction.,weak_match
+11,phonics,Indoor Rock Climbing for Kids,A rock climbing video focused on physical activity with no phonics or reading content.,weak_match
+16,math skills,Rating My Subscribers Playlists,A music playlist reaction video with no math or educational content.,weak_match
+9,study habits,Building the Tallest Popsicle Stick Tower,A stacking challenge video with no study skills or academic content.,weak_match
+14,emotional development,Airsoft Battle: Capture the Flag,An airsoft gameplay video with no emotional development or social learning content.,weak_match
+7,grammar skills,Toy Crane Machine Challenge: Can I Win?,An arcade claw machine video with no grammar or language arts content.,weak_match
+12,vocabulary building,Speed Eating Challenge: 100 Chicken Nuggets,A speed eating challenge with no vocabulary or language learning content.,weak_match
